@@ -1,0 +1,26 @@
+{% extends 'main/base.html' %}
+{% block content %}
+{% include 'main/navbar.html' %}
+<div class="container">
+<div class="row">
+    <h1 class="center-align">ACHIEVEMENTS</h1>
+    <div class="collection">
+        <a href="#!" class="collection-item">Secured a rank of 450 in June long challenge over 30000 participants</a>
+        <a href="#!" class="collection-item">I am a 4* rated Coder on Codechef</a>
+        <a href="#!" class="collection-item">Solved over 300 programming questions on various programming platforms</a>
+        <a href="#!" class="collection-item">Is a active member of MMIL</a>
+      </div>
+</div>
+</div>
+{% endblock %}
+{% block script %}  
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.materialboxed');
+        var instances = M.Materialbox.init(elems);
+      });
+</script>
+
+
+{% endblock %}

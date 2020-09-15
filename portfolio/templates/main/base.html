@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="{% static 'css/materialize.min.css'%}">
+    <script src="{% static 'js/materialize.min.js' %}"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    {% block content %} {% endblock %}
+    {% block script %}  {% endblock %}
+</body>
+
+</html>
